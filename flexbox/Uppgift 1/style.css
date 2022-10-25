@@ -1,0 +1,58 @@
+body{
+    color: black;
+}
+
+h1{
+    color: palevioletred;
+}
+
+img{
+    width: 300px;
+}
+
+.header{
+    display: flex;
+    background-color: palevioletred;
+    height: 100px;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.header h1{
+    color:white;
+}
+
+.flex-container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;*/
+    justify-content: center;
+    flex-wrap:nowrap;
+}
+
+.flex-container div{
+    margin: 10px;
+}
+
+.tab{
+    display: flex;
+    height: 50px;
+    height: 200px;
+    flex-direction: column;
+    background-color: grey;
+}
+
+.tab div{
+    width: 50px;
+    height: 50px;
+}
+
+.main{
+    width: 100%;
+    height: 500px;
+    background-color: grey;
+    display: flex;
+}
